@@ -1,0 +1,17 @@
+.ql-editor {
+  img {
+    width: 100%;
+    border-radius: var(--border-radius);
+  }
+
+  .ql-video {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius) !important;
+  }
+
+  a {
+    color: var(--blue) !important;
+    font-weight: 700 !important;
+  }
+}

@@ -1,0 +1,77 @@
+.banner-swiper {
+  width: 100%;
+  height: 100%;
+
+  .banner-swiper-slice {
+    position: relative;
+    height: calc(70vh - 50px);
+    width: 100%;
+  }
+
+  .swiper-button-prev {
+    &::after {
+      font-size: 24px;
+      color: #fff;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.6;
+    }
+  }
+
+  .swiper-button-next {
+    @extend .swiper-button-prev;
+  }
+}
+
+.banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10 !important;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+
+  // background-color: #1111115a; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top, #111, transparent);
+
+  &__title {
+    padding-top: 140px !important;
+    font-size: 6rem !important;
+    color: #fff;
+    text-shadow: var(--text-shadow);
+    font-weight: 700 !important;
+    font-family: 'Poppins' !important;
+    line-height: 100% !important;
+  }
+
+  &__subtitle {
+    color: #fff;
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
+  }
+}
+
+@include respond-to($md) {
+  .banner-content {
+    &__title {
+      padding-top: 0rem !important;
+      font-size: 2rem !important;
+      text-align: center;
+    }
+
+    &__subtitle {
+      text-align: center;
+      font-size: 1rem !important;
+    }
+  }
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-button-next {
+    display: none !important;
+  }
+}

@@ -1,0 +1,36 @@
+.MuiDialog-container {
+  .MuiToolbar-root {
+    border-radius: 0px !important;
+  }
+  .MuiPaper-rounded {
+    // border-radius: var(--border-radius);
+    box-shadow: none !important;
+  }
+  .MuiDialogContent-root {
+    border-color: var(--gray-300);
+  }
+}
+
+.modal-transparent {
+  .MuiPaper-root {
+    background-color: transparent !important;
+  }
+}
+
+.MuiDialog-root {
+  z-index: 99999 !important;
+}
+
+@include respond-to($md) {
+  .MuiDialog-container {
+    .MuiPaper-root {
+      width: 100% !important;
+      margin: 16px !important;
+      max-height: calc(100% - 28px);
+    }
+  }
+
+  .MuiDialogContent-root {
+    padding: 8px 16px 16px 16px !important;
+  }
+}

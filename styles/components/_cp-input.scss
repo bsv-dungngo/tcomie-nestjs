@@ -1,0 +1,107 @@
+$padding: 7px 12px !important;
+$fontWeight: 500 !important;
+
+// CP
+.cp-input-field {
+  .MuiFormControl-root {
+    transition: 0.6s !important;
+
+    .MuiOutlinedInput-root {
+      .MuiOutlinedInput-input {
+        padding: $padding;
+        font-size: var(--body-font-size) !important;
+        color: var(--gray-700) !important;
+        font-weight: $fontWeight;
+        background-color: #fff;
+        border-radius: var(--cp-border-radius);
+        &::placeholder {
+          opacity: 0.4;
+          color: var(--dark) !important;
+        }
+      }
+
+      fieldset {
+        border-radius: var(--cp-border-radius);
+        border-color: var(--input-border-color) !important;
+      }
+    }
+
+    // Adorned end
+    .MuiInputBase-adornedEnd {
+      padding-right: 6px !important;
+      background-color: #fff;
+      border-radius: var(--cp-border-radius);
+    }
+
+    .Mui-focused fieldset {
+      transition: 0.4s !important;
+      border-color: var(--blue) !important;
+    }
+
+    // Multiline textarea
+    .MuiInputBase-multiline {
+      padding: 0px !important;
+    }
+
+    .Mui-disabled {
+      &:hover {
+        fieldset {
+          border-color: var(--input-border-color) !important;
+        }
+      }
+    }
+  }
+}
+
+.cp-base-select-field {
+  .MuiOutlinedInput-root {
+    padding: 8px 8px !important;
+    background-color: #fff;
+  }
+
+  .MuiOutlinedInput-input {
+    padding: 0px !important;
+  }
+}
+
+.cp-base-input-field {
+  .MuiOutlinedInput-root {
+    padding: $padding;
+
+    .MuiOutlinedInput-input {
+      padding: 0px !important;
+    }
+  }
+
+  fieldset {
+    border-radius: var(--cp-border-radius);
+    border-color: var(--input-border-color) !important;
+  }
+}
+
+.cp-date-picker {
+  .MuiOutlinedInput-input {
+    padding: $padding;
+  }
+  fieldset {
+    border-radius: var(--cp-border-radius);
+    border-color: var(--input-border-color) !important;
+  }
+}
+
+input {
+  font-weight: $fontWeight;
+}
+
+.menu-locales {
+  .MuiPaper-root {
+    box-shadow: var(--box-shadow) !important;
+    margin-top: 4px !important;
+    border: 1px solid var(--gray-300);
+    min-width: 180px;
+  }
+
+  &.MuiPopover-root {
+    z-index: 99999 !important;
+  }
+}

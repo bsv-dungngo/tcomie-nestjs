@@ -1,0 +1,14 @@
+{
+  "title": "Tiêu đề",
+  "message": "Nội dung",
+  "fullname": "Họ và tên",
+  "email": "Email",
+  "requiredText": " là bắt buộc",
+  "invalidText": " Invalid format  ",
+  "fullNameMaxLength": "Tối đa 254 ký tự",
+  "messageMaxLength": "Tối đa 254 ký tự",
+  "emailMaxLength": "Tối đa 254 ký tự",
+  "phoneInvalidFormat": "Số điện thoại không đúng định dạng",
+  "phoneMaxLength": "Số điện thoại tối đa 20 ký tự",
+  "phoneRequired": "Số điện thoại là bắt buộc"
+}

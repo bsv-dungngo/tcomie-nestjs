@@ -1,0 +1,118 @@
+.service-item-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--white);
+  cursor: pointer;
+  transition: 0.6s;
+
+  &:hover {
+    box-shadow: var(--box-shadow);
+  }
+}
+
+.service-item {
+  position: relative;
+  transition: 0.6s;
+
+  img {
+    transition: transform 250ms;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+
+    .service-item__btn-detail {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    &::after {
+      @include box-full;
+      background-color: rgba(0, 0, 0, 0.578);
+    }
+  }
+
+  .service-item__btn-detail {
+    transition: transform 0.6s, opacity 0.6s;
+    display: flex;
+    justify-content: center;
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  @include e('content') {
+    @include box-full;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    @include e('description') {
+      @include textNLine(3);
+    }
+  }
+
+  @include e('image') {
+    position: relative;
+    height: 220px;
+    width: 100%;
+    overflow: hidden;
+    // border-radius: var(--border-radius) 0px 0px 0px;
+    // border: 1px solid var(--gray-300);
+  }
+}
+
+.more-service {
+  height: 160px;
+  border: 1px solid var(--gray-900);
+  width: 100%;
+  cursor: pointer;
+  transition: 250ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .MuiTypography-root {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    text-align: center;
+  }
+
+  .MuiSvgIcon-root {
+    width: 2em;
+    height: 2em;
+  }
+
+  &:hover {
+    transition: 250ms;
+    background-color: var(--gray-900);
+    .MuiSvgIcon-root {
+      color: #fff !important;
+    }
+
+    .MuiTypography-root {
+      color: #fff;
+    }
+  }
+}
+
+@include respond-to($md) {
+  .more-service {
+    height: 140px;
+  }
+}
+
+.service-detail img {
+  max-width: 100%;
+}
+
+.service-detail {
+  .ql-editor {
+    padding: 0px !important;
+  }
+}

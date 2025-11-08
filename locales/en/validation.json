@@ -1,0 +1,15 @@
+{
+  "title": "Title",
+  "message": "Content",
+  "fullname": "Fullname",
+  "email": "Email",
+  "requiredText": " is required",
+  "invalidText": " Invalid format  ",
+  "titleMaxLength": "Max 245 characters",
+  "fullNameMaxLength": "Max 254 characters",
+  "messageMaxLength": "Max 254 characters",
+  "emailMaxLength": "Max 254 characters",
+  "phoneInvalidFormat": "Phone Invalid format",
+  "phoneMaxLength": "Phone is Max 20 characters",
+  "phoneRequired": "Phone is Required"
+}

@@ -1,0 +1,21 @@
+.main-icon-button {
+  flex-shrink: 0 !important;
+  &.MuiIconButton-colorCpPrimary {
+    background-color: var(--blue-lighter) !important;
+  }
+  &.MuiIconButton-colorError {
+    background-color: var(--danger-light) !important;
+  }
+  &.MuiButtonBase-root {
+    background-color: var(--gray-300);
+  }
+
+  &.MuiIconButton-sizeSmall {
+    height: 26px !important;
+    width: 26px !important;
+
+    svg {
+      font-size: 16px !important;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@use 'sass:map';
+
+.side-bar-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: var(--app-sidebar-width);
+  z-index: 999 !important;
+  background-color: #fff;
+  border-right: 1px solid var(--app-sidebar-light-separator-color);
+  &__logo {
+    display: flex;
+    height: var(--app-header-height) !important;
+    border-bottom: 1px solid var(--app-sidebar-light-separator-color);
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calcEm(28);
+    font-weight: 600;
+    padding-left: 16px;
+  }
+
+  // Style menu
+  .app-sidebar-menu {
+    padding: 6px 8px;
+    overflow-y: scroll;
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    padding-bottom: 24px;
+    .MuiButton-root {
+      display: flex;
+      justify-content: flex-start;
+      text-transform: none;
+      .btn-label {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+  }
+
+  .app-sidebar-menu::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+  // Styles colors
+  .btn-nav-actived {
+    color: var(--blue) !important;
+    background-color: var(--blue-lighter) !important;
+    height: var(--base-height) !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+
+  // Base
+  .btn-nav-inactive {
+    @extend .btn-nav-actived;
+    color: var(--gray-700) !important;
+    background-color: transparent !important;
+
+    &:hover {
+      background-color: var(--gray-100) !important;
+    }
+  }
+}
+
+.menu-profile-footer {
+  .MuiPaper-root {
+    border-radius: 4px !important;
+    box-shadow: var(--box-shadow) !important;
+    border: 1px solid var(--gray-300);
+    width: 10% !important;
+    margin-top: -34px !important;
+  }
+}

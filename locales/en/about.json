@@ -1,0 +1,37 @@
+{
+  "aboutTitle": "About Us",
+  "companyNameLabel": "Company Name",
+  "companyNameTitle": "TCOMIE TELECOMMUNICATION ENERGY JOINT STOCK COMPANY",
+  "presidentLabel": "President",
+  "presidentTitle": " Nguyen Duy",
+  "foundedLabel": "Founded",
+  "foundedTitle": "1-May-2017",
+  "headquartersLabel": "Address",
+  "headquartersTitle": "L17-11, 17th Floor, Vincom Center, 72 Le Thanh Ton Street, <br/> Ben Nghe Ward, District 1, Hochiminh City, Vietnam",
+  "telLabel": "TEL",
+  "telTitle": "(028) 62883088",
+  "capitalLabel": "Capital",
+  "capitalTitle": "6,680,000 JPY",
+  "bankReferenceLabel": "Bank Reference",
+  "bankReferenceTitle": "Mizuho Bank, Ltd. Kobe Branch <br/>Sumitomo Mitsui Banking Corporation Kobe Main Office",
+  "licensesLabel": "Licenses",
+  "licensesTitle": "License for Fee-Charging Employment Placement Businesses 28-Yu-300745",
+  "staff": "OUR TEAMS",
+  "field_activity": "OUR SERVICES",
+
+  "vison_mission": "VISION - MISSION",
+  "vison_mission_desc": "TCOMIE's strategic direction is to become a leading telecommunications and technologies company, acting as a pioneer in finding and paving the way for breakthrough technology solutions in digital transformation and artificial intelligence.",
+
+  "vison_mission1": "Finding new customers and retaining customers/partners to help them achieve their goals and improve business profitability/efficiency",
+  "vison_mission2": "Maximize shareholder values",
+  "vison_mission3": "To be committed to being responsible for the environment and society. This is also our mission statement, responsible for developing the prosperity of the community.",
+
+  "serviceTitle1": "Technology and Telecommunication solutions",
+  "serviceDesc1": "<ul style='text-align: left !important; line-height: 30px;'><li>Providing optimization solutions for mobile networks 3G, 4G, and 5G.</li>  <li>Providing a database for tools that are used for designing, planning, and optimizing the mobile network.</li>  <li>Consulting, designing, surveying, installing, and base transceiver stations.</li>  <li>Providing a digital map database that is used for planning the mobile network.</li> <li>Providing integrated software tools on the Web system.</li> <li>Building of telecommunication infrastructure.</li></ul>",
+
+  "serviceTitle2": "GPS, GIS, and remote sensing technologies",
+  "serviceDesc2": "<ul style='text-align: left !important; line-height: 30px;'><li>Consulting and developing overall solutions applying geographic information system (GIS) combining Remote Sensing and GPS technology </li>  <li>Provision of surveying, mapping, and remote sensing services and products.</li>  <li>Consulting, and building spatial decision support systems (SDSS)</li>  <li>Consultancy on integrating 4.0 technologies (AI, IoT, BigData, Blockchain, ...) with GIS, Remote sensing, and GPS in the Digital Transformation of agriculture and rural development (fisheries, aquaculture, cultivation, animal husbandry, irrigation...)</li></ul>",
+
+  "serviceTitle3": "Green energy",
+  "serviceDesc3": "<ul style='text-align: left !important; line-height: 30px;'><li>Consulting, designing, surveying, and installing green energy such as solar power systems, and wind power systems.</li></ul>"
+}

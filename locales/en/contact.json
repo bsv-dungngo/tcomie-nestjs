@@ -1,0 +1,18 @@
+{
+  "contactTitle": "Contact Us",
+  "contactBody": "We are always ready to receive all comments and answer your requests. Please contact us immediately",
+  "contactName": "Name",
+  "contactEmail": "Email",
+  "contactCompanyName": "Company",
+  "contactTel": "Tel",
+  "contactSubject": "Subject",
+  "contactMessage": "Message",
+  "contactInformation": "Company information",
+  "contactBtnSubmit": "Send information",
+  "emailLabel": "Email",
+  "emailTitle": "admin@tcomie.com",
+  "submitContactSuccess": "Sent contact successfully",
+  "submitContactError": "Error sending contact",
+  "contactWorkingTime": "Working Time 9:00~17:30",
+  "telCompany": "0931693388"
+}

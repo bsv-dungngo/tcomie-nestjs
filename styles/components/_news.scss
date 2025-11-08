@@ -1,0 +1,7 @@
+.news-item {
+  cursor: pointer;
+
+  @include e('text') {
+    @include textNLine(3);
+  }
+}

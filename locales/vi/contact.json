@@ -1,0 +1,19 @@
+{
+  "contactTitle": "Liên hệ",
+  "contactBody": "Chúng tôi luôn sẵn sàng tiếp nhận mọi ý kiến đóng góp và giải đáp những yêu cầu của bạn. Hãy liên hệ ngay với chúng tôi",
+  "contactName": "Họ và tên",
+  "contactEmail": "Email",
+  "contactCompanyName": "Company",
+  "contactTel": "Số điện thoại",
+  "contactSubject": "Tiêu đề",
+  "contactMessage": "Nội dung",
+  "contactInformation": "Thông tin công ty",
+  "contactBtnSubmit": "Gửi thông tin",
+  "emailLabel": "Email",
+  "emailTitle": "admin@tcomie.com",
+  "submitContactSuccess": "Gửi thông tin thành công",
+  "submitContactError": "Có lỗi sảy ra khi gửi thông tin",
+  "contactWorkingTime": "Working Time 9:00~17:30",
+  "phoneCompany": "(028) 62883088",
+  "telCompany": "0931693388"
+}

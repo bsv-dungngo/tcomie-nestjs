@@ -1,0 +1,46 @@
+.footer-service-item {
+  padding: 12px 0px;
+  min-width: 120px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 99;
+  padding-bottom: 0 !important;
+  p {
+    color: #fff;
+  }
+
+  svg {
+    color: #fff;
+  }
+
+  &:hover {
+    p {
+      color: #9f7d2d !important;
+    }
+  }
+}
+
+.active {
+  .footer-service-item {
+    p {
+      color: #9f7d2d;
+    }
+    a {
+      text-decoration: none !important;
+    }
+  }
+}
+
+.elementor-background-overlay {
+  background-image: url(../../public/images/shapes/BG-3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 10;
+}

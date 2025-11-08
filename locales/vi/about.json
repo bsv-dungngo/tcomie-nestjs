@@ -1,0 +1,35 @@
+{
+  "aboutTitle": "About Us",
+  "companyNameLabel": "Tên Công Ty",
+  "companyNameTitle": "Công ty Cổ Phần Viễn Thông Năng Lượng TCOMIE",
+  "presidentLabel": "President",
+  "presidentTitle": " Nguyen Duy",
+  "foundedLabel": "Founded",
+  "foundedTitle": "1-May-2017",
+  "headquartersLabel": "Địa chỉ",
+  "headquartersTitle": "L17-11, Tầng 17, Toà nhà Vincom Center, 72 Lê Thánh Tôn,  <br/> Phường Bến Nghé, Quận 1, Tp. HCM, Việt Nam",
+  "telLabel": "Số điện thoại",
+  "telTitle": "(028) 62883088",
+  "capitalLabel": "Capital",
+  "capitalTitle": "6,680,000 JPY",
+  "bankReferenceLabel": "Bank Reference",
+  "bankReferenceTitle": "Mizuho Bank, Ltd. Kobe Branch <br/>Sumitomo Mitsui Banking Corporation Kobe Main Office",
+  "licensesLabel": "Licenses",
+  "licensesTitle": "License for Fee-Charging Employment Placement Businesses 28-Yu-300745",
+  "staff": "NHÂN SỰ CHỦ CHỐT",
+  "field_activity": "LĨNH VỰC HOẠT ĐỘNG",
+  "vison_mission": "TẦM NHÌN - SỨ MỆNH",
+  "vison_mission_desc": "Định hướng chiến lược của TCOMIE là trở thành Công ty viễn thông kỹ thuật hàng đầu, đóng vai trò là người tiên phong trong việc tìm kiếm, mở đường cho các giải pháp công nghệ đột phá trong chuyển đổi số và trí tuệ nhân tạo:",
+  "vison_mission1": "Tìm kiếm khách hàng mới và giữ chân khách hàng/đối tác giúp họ đạt được mục tiêu, nâng cao lợi nhuận/hiệu quả doanh nghiệp",
+  "vison_mission2": "Không ngừng học hỏi và tư duy đổi mới",
+  "vison_mission3": "Cam kết trách nhiệm với môi trường và xã hội. Và đây cũng là tuyên bố sứ mệnh của chúng tôi, có trách nhiệm phát triển cho sự thịnh vượng của cộng đồng.",
+
+  "serviceTitle1": "Công nghệ, giải pháp Viễn thông",
+  "serviceDesc1": "<ul style='text-align: left !important; line-height: 30px;'><li>Cung cấp giải pháp tối ưu hóa mạng di động 3G,4G,5G</li>  <li>Cung cấp cơ sở dữ liệu bản đồ số phục vụ công tác thiết kế quy hoạch mạng di động.</li>  <li>Cung cấp công cụ phần mềm tích hợp trên hệ thống Web</li>  <li>Tư vấn, thiết kế, khảo sát, lắp đặt, phát sóng các trạm viễn thông</li> <li>Xây lắp cơ sở hạ tầng viễn thông</li></ul>",
+
+  "serviceTitle2": "Công nghệ GPS, GIS và viễn thám",
+  "serviceDesc2": "<ul style='text-align: left !important; line-height: 30px;'><li>Tư vấn xây dựng giải pháp tổng thể ứng dụng công nghệ hệ thống thông tin địa lý (GIS) kết hợp công nghệ viễn thám (Remote Sensing) và GPS </li>  <li>Cung cấp dịch vụ và sản phẩm đo đạc, bản đồ và viễn thám</li>  <li>Tư vấn, xây dựng các hệ trợ giúp ra quyết định không gian (SDSS)</li>  <li>Tư vấn tích hợp các công nghệ 4.0 (AI, IoT, BigData, Blockchain, …) với GIS, Viễn thám, GPS trong Chuyển đổi số ngành nông nghiệp và PTNT</li></ul>",
+
+  "serviceTitle3": "Năng lượng tái tạo",
+  "serviceDesc3": "<ul style='text-align: left !important; line-height: 30px;'><li>Tư vấn, thiết kế, khảo sát, lắp đặt hệ thống Điện mặt trời, Điện gió</li></ul>"
+}

@@ -1,0 +1,104 @@
+.japan-benifit-wrapper {
+  .japan-benifit-item {
+    background-image: url(/images/shapes/process-list-2.png);
+    background-repeat: no-repeat;
+
+    .japan-benifit-item-content {
+      margin-top: 24px;
+    }
+
+    .japan-benifit-item-number {
+      height: 38px;
+      width: 38px;
+      border-radius: 50%;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-weight: 700;
+    }
+  }
+}
+
+.learning-japan-details-wrapper {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    z-index: 0;
+    border-bottom-right-radius: 100px;
+  }
+}
+
+.learning-japan-swiper {
+  height: calc(100% + 70px);
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .swiper-slide {
+    position: relative;
+    height: 84%;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .learning-japan-swiper-player {
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    background-color: #11111156;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      font-size: 3rem;
+      fill: var(--white);
+    }
+  }
+
+  .swiper-button-next {
+    position: absolute;
+    top: auto;
+    left: 53% !important;
+    bottom: 0 !important;
+    background-color: var(--white);
+    height: 32px;
+    width: 32px;
+    z-index: 99;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 22px;
+
+    &::after {
+      font-size: 18px;
+      color: var(--dark);
+    }
+  }
+
+  .swiper-button-prev {
+    position: absolute;
+    top: auto;
+    left: 49% !important;
+    bottom: 0 !important;
+    background-color: var(--white);
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 22px;
+
+    &::after {
+      font-size: 18px;
+      color: var(--dark);
+    }
+  }
+}

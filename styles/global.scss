@@ -1,0 +1,53 @@
+/* Importing the files in the abstracts folder. */
+@import './abstracts/functions';
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+/* Importing all the files in the base folder. */
+@import './base/animation';
+@import './base/fonts';
+@import './base/global';
+@import './base/reset';
+@import './base/utilities';
+
+/* Importing all the files in the components folder. */
+@import './components/buttons';
+@import './components/service';
+@import './components/news';
+@import './components/card';
+@import './components/contact';
+@import './components/input';
+@import './components/data-table';
+@import './components/tabs';
+@import './components/banner';
+@import './components/modal';
+@import './components/page-bg';
+@import './components/course';
+@import './components/shape';
+@import './components/loading';
+@import './components/testimonial';
+@import './components/tag';
+@import './components/quill';
+@import './components/icon-button';
+
+// CP
+@import './components/cp-button';
+@import './components/cp-input';
+
+/* Importing all the files in the layout folder. */
+@import './layout/footer';
+@import './layout/forms';
+@import './layout/grid';
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/sidebar';
+@import './layout/main';
+@import './layout/cp-header';
+
+/* Importing the home.scss file into the main.scss file. */
+@import './pages/home';
+@import './pages/about';
+@import './pages/japan-learning';
+@import './pages/blogs';
+@import './pages/article';
+@import './pages/cp-course';

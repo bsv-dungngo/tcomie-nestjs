@@ -1,0 +1,28 @@
+.page-bg {
+  height: 520px;
+  width: 100%;
+  position: relative;
+
+  &::after {
+    @include box-full;
+    background-color: #11111186;
+  }
+
+  .page-bg-content {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@include respond-to($md) {
+  .page-bg {
+    height: 260px;
+  }
+}

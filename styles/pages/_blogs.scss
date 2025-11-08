@@ -1,0 +1,33 @@
+.blog-tabs {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .MuiTabs-root {
+    min-height: auto !important;
+    background-color: var(--primary);
+    border-radius: var(--border-radius);
+    padding: 2px;
+    border: 1px solid var(--gray-300);
+  }
+
+  .MuiTab-root {
+    background-color: var(--primary);
+    min-height: 38px !important;
+    min-width: 200px;
+    border-radius: 8px;
+    text-transform: none !important;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .Mui-selected {
+    background-color: var(--white) !important;
+    color: var(--primary) !important;
+  }
+
+  .MuiTabs-indicator {
+    display: none !important;
+  }
+}

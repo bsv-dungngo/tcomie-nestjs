@@ -1,0 +1,293 @@
+.main-button {
+  &.MuiButton-root {
+    font-weight: 700;
+
+    &:hover {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    }
+
+    &.Mui-disabled {
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.12) !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+
+  &.MuiButton-outlined {
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, var(--primaryLighter), var(--primary)) border-box;
+    border-radius: 50em;
+    border: 1px solid transparent;
+    overflow: hidden;
+    padding: 0px 16px !important;
+    transition: color 0.6s, transform 0.6s, text-decoration 0.6s;
+
+    span {
+      background: linear-gradient(to right, var(--primaryLighter), var(--primary));
+      -webkit-background-clip: text;
+      color: transparent;
+      z-index: 1;
+    }
+
+    svg {
+      fill: var(--primary);
+    }
+
+    .MuiSvgIcon-root {
+      margin-left: -30px !important;
+      transition: 0.5s;
+      opacity: 0;
+    }
+
+    &::after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 0;
+      background: linear-gradient(to left, transparent 50%, #ff7300 50%) right;
+      background-size: 200%;
+      transition: 0.5s ease-out;
+    }
+
+    &:hover {
+      border: 1px solid #ff7300;
+
+      span {
+        color: var(--white);
+        transition-duration: 600ms;
+      }
+
+      &::after {
+        background-position: left;
+      }
+
+      svg {
+        fill: var(--white);
+      }
+
+      .MuiSvgIcon-root {
+        margin-left: -6px !important;
+        opacity: 1;
+      }
+    }
+  }
+
+  // Primary Button styles
+  &.MuiButton-containedPrimary {
+    background: linear-gradient(to right, var(--primaryLighter), var(--primary));
+    color: #fff;
+    overflow: hidden;
+
+    &::after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 0;
+      background: linear-gradient(to left, transparent 50%, var(--primary) 50%) right;
+      background-size: 200%;
+      transition: 0.5s ease-out;
+    }
+
+    span {
+      z-index: 1;
+      transition: 0.5s;
+    }
+
+    .MuiSvgIcon-root {
+      margin-left: -30px !important;
+      transition: 0.5s;
+      opacity: 0;
+    }
+
+    &:hover {
+      background: linear-gradient(to right, var(--primaryLighter), var(--primary));
+
+      span {
+        color: var(--white);
+      }
+
+      &::after {
+        background-position: left;
+      }
+
+      .MuiSvgIcon-root {
+        margin-left: -6px !important;
+        opacity: 1;
+      }
+    }
+  }
+
+  &.MuiButton-containedWhite {
+    background-color: #fff;
+    color: var(--dark);
+
+    &:hover {
+      background-color: #fff;
+      color: var(--dark);
+    }
+  }
+
+  // Custom variant
+  &.MuiButton-filledTonalPrimary {
+    background-color: var(--primary-light) !important;
+    color: var(--primary) !important;
+
+    svg {
+      path {
+        color: var(--primary) !important;
+      }
+    }
+  }
+
+  &.MuiButton-filledTonalPrimary.Mui-disabled {
+    background-color: rgba(0, 0, 0, 0.12) !important;
+    color: rgba(0, 0, 0, 0.26) !important;
+    svg {
+      path {
+        color: rgba(0, 0, 0, 0.26) !important;
+      }
+    }
+  }
+
+  &.MuiButton-filledTonalError {
+    background-color: var(--danger-light) !important;
+    color: var(--danger) !important;
+  }
+}
+
+.MuiButton-root {
+  padding: 8px 16px !important;
+  border-radius: var(--border-radius) !important;
+  box-shadow: none !important;
+  white-space: nowrap !important;
+  text-transform: none !important;
+}
+
+// Button sizes
+.MuiButton-sizeLarge {
+  padding: 10px 16px !important;
+  font-size: 15px !important;
+}
+
+.MuiButton-sizeSmall {
+  padding: 4px 12px !important;
+  height: 30px !important;
+  font-size: 12px !important;
+  border-radius: 4px !important;
+}
+
+.MuiButton-outlinedInherit {
+  border-color: var(--gray-300) !important;
+  background-color: var(--gray-100) !important;
+}
+
+.MuiButton-sizeSmall {
+  height: 32px !important;
+}
+
+.icon-btn-add {
+  height: 38px;
+  width: 38px;
+  background-color: var(--primary) !important;
+  color: #fff !important;
+  border-radius: var(--border-radius) !important;
+}
+
+.icon-button-close {
+  .MuiIconButton-root {
+    height: var(--base-height);
+    width: var(--base-height);
+  }
+}
+
+.MuiIconButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26) !important;
+  cursor: default !important;
+  svg {
+    path {
+      color: rgba(0, 0, 0, 0.26) !important;
+    }
+  }
+}
+
+.MuiButton-root.MuiButton-outlinedDarkWhite {
+  background-color: #fff !important;
+  border-width: 2px !important;
+  border-color: var(--gray-900) !important;
+
+  &:hover {
+    background-color: #ffffffd8 !important;
+  }
+}
+
+.MuiButton-filledTonalPrimary {
+  background-color: var(--blue-lighter) !important;
+  color: var(--blue) !important;
+}
+
+.btn-icon-error-fill {
+  background-color: #ff000040 !important;
+}
+
+.Mui-disabled.MuiButtonBase-root {
+  cursor: not-allowed !important;
+  pointer-events: visible !important;
+  opacity: 0.6;
+}
+
+.btn-icon-fill {
+  background-color: var(--blue-lighter) !important;
+  color: var(--blue);
+  svg {
+    fill: var(--blue);
+  }
+}
+
+.btn-link {
+  background: linear-gradient(to right, var(--primaryLighter), var(--primary));
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  transition: color 0.6s, transform 0.6s, text-decoration 0.6s;
+
+  svg {
+    color: var(--primary);
+    transition: transform 0.6s;
+  }
+
+  &:hover {
+    text-decoration: underline !important;
+    svg {
+      transform: translateX(6px);
+    }
+  }
+}
+
+.lang-style-bg {
+  background-color: var(--gray-300) !important;
+  color: var(--dark) !important;
+  border-color: var(--gray-300) !important;
+}
+
+.lang-style-bg-paper {
+  .MuiPaper-root {
+    box-shadow: var(--box-shadow) !important;
+    width: 160px !important;
+    margin-top: -36px !important;
+
+    .MuiButtonBase-root {
+      padding: 8px 12px !important;
+      min-height: 38px !important;
+    }
+  }
+}

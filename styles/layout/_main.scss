@@ -1,0 +1,31 @@
+@use 'sass:map';
+
+.main-layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  flex: 1;
+  background-color: #fafafa;
+
+  .app-wrapper {
+    display: flex;
+    min-height: 100vh;
+    margin-left: calc(var(--app-sidebar-width));
+  }
+
+  .app-main {
+    position: relative;
+    height: 100%;
+    padding: calc(var(--app-header-height) + 16px) 16px 16px 16px;
+    width: 100%;
+  }
+}
+
+@include respond-to(map.get($breakpoints, 'large')) {
+  .main-layout-wrapper {
+    .app-wrapper {
+      margin-left: 0px;
+    }
+  }
+}

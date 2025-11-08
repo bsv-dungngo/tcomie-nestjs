@@ -1,0 +1,35 @@
+.why-choose-us-shape-01 {
+  @include box-full;
+  top: 0;
+  left: 0;
+  margin-left: 24px;
+  margin-top: 24px;
+
+  img {
+    max-width: 200px;
+  }
+}
+
+.why-choose-us-shape-02 {
+  position: absolute;
+  bottom: 0 !important;
+  right: 0 !important;
+  margin-right: 120px;
+  margin-bottom: 120px;
+  z-index: 1;
+  img {
+    max-width: 200px;
+  }
+}
+
+.why-choose-us-shape-03 {
+  height: 500px;
+  width: 500px;
+  border: 1px solid var(--gray-300);
+  position: absolute;
+  top: 10;
+  right: 0;
+  margin-right: 24px;
+  z-index: 1;
+  border-radius: 50%;
+}

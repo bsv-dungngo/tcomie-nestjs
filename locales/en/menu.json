@@ -1,0 +1,14 @@
+{
+  "navHome": "Home",
+  "navInfo": "About Us",
+  "navProject": "Projects",
+  "navNewsEvents": "News - Events",
+  "navLearnProgramming": "Programing courses",
+  "navLearnJapanese": "Japanese Course",
+  "navSchedule": "Open schedule",
+  "navArticle": "News - Events",
+  "navContact": "Contact",
+
+  "eventTabLabel": "Events",
+  "newsTabLabel": "News"
+}

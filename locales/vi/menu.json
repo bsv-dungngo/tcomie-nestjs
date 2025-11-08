@@ -1,0 +1,14 @@
+{
+  "navHome": "Trang chủ",
+  "navInfo": "Giới thiệu",
+  "navProject": "Dự án",
+  "navNewsEvents": "Tin tức - Sự kiện",
+  "navLearnProgramming": "Học Lập Trình",
+  "navLearnJapanese": "Học tiếng nhật",
+  "navSchedule": "Lịch Khai Giảng",
+  "navArticle": "Tin tức - sự kiện",
+  "navContact": "Liên hệ",
+
+  "eventTabLabel": "Sự kiện",
+  "newsTabLabel": "Tin tức"
+}
