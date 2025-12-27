@@ -58,6 +58,6 @@ export class ValidationCP {
   }
 
   static maxLength(label: string, max: number) {
-    return (yup as any).max(max, `${label} tối đa ${max} ký tự`)
+    return yup.string().max(max, `${label} tối đa ${max} ký tự`)
   }
 }

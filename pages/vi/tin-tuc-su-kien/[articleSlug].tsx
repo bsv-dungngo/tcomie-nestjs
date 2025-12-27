@@ -11,10 +11,17 @@ export default function BlogDetailsPage() {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const slugs = await fetchArticleSlugs('vi')
+  // Fetch both 'news' and 'event' types
+  const [newsSlugs, eventSlugs] = await Promise.all([
+    fetchArticleSlugs('vi', 'news'),
+    fetchArticleSlugs('vi', 'event'),
+  ])
+
+  // Combine and deduplicate slugs
+  const allSlugs = Array.from(new Set([...newsSlugs, ...eventSlugs]))
 
   return {
-    paths: slugs.map((articleSlug) => ({
+    paths: allSlugs.map((articleSlug) => ({
       params: {
         articleSlug,
       },

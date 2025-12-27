@@ -5,11 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3002",
+    "start": "serve -s build -l 3002",
+    "deploy": "bash deploy.sh",
+    "deploy:local": "bash deploy-local.sh",
+    "deploy:pm2": "bash deploy-pm2.sh",
+    "deploy:pm2:local": "bash deploy-pm2-local.sh",
+    "deploy:api": "bash deploy-api.sh fastapi",
+    "deploy:server": "bash setup-server.sh",
+    "setup:fastapi": "bash setup-fastapi.sh",
     "lint": "next lint ",
     "lint:fix": "next lint --fix",
     "format": "prettier --ignore-path .gitignore --write \"{pages,utils,layout,hooks,app-redux,types}**/*.+(js|ts|tsx|json)\"",
-    "generate-client": "openapi --input https://api.tcomie.com/openapi.json --output ./config/client --client axios --useOptions --useUnionTypes"
+    "generate-client": "openapi --input https://api-tcomie.osake.asia/openapi.json --output ./config/client --client axios --useOptions --useUnionTypes"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.1.0",
@@ -99,6 +106,7 @@
     "eslint-plugin-tsdoc": "^0.2.16",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
+    "serve": "^14.2.5",
     "typescript": "^5.3.3"
   }
 }

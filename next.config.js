@@ -63,15 +63,17 @@ const nextConfig = {
   //     defaultLocale: 'vi',
   //   },
   // },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/vi/trang-chu',
-        permanent: true,
-      },
-    ]
-  },
+  // Note: redirects() doesn't work with static export
+  // Handle redirects on your server instead
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/',
+  //       destination: '/vi/trang-chu',
+  //       permanent: true,
+  //     },
+  //   ]
+  // },
 }
 
 module.exports = nextConfig
