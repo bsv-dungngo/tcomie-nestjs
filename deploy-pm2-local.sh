@@ -245,9 +245,10 @@ echo "=========================================="
 pm2 stop tcomie-nextjs 2>/dev/null || true
 pm2 delete tcomie-nextjs 2>/dev/null || true
 
-# Start với PM2 (dùng npx serve vì serve là ES Module)
+# Start với PM2 (chạy Next.js server mode)
 echo "Starting Next.js với PM2..."
-pm2 start "npx serve -s $PROJECT_DIR/build -l $PORT" --name tcomie-nextjs
+cd "$PROJECT_DIR"
+pm2 start npm --name tcomie-nextjs -- start
 pm2 save
 
 echo ""

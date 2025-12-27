@@ -17,8 +17,8 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 const nextConfig = {
-  output: 'export',
-  distDir: 'build',
+  // output: 'export', // Bỏ static export, chạy SSR bình thường
+  // distDir: 'build',
   eslint: {
     dirs: ['pages', 'utils', 'layout', 'hooks', 'app-redux', 'types'],
   },
